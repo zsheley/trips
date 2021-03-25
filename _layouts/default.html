@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+{% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <center><h1 class="header"> Home </h1>
+        <p class="header">__̴ı̴̴̡̡̡ ̡͌l̡̡̡ ̡͌l̡*̡̡ ̴̡ı̴̴̡ ̡̡͡|̲̲̲͡͡͡ ̲▫̲͡ ̲̲̲͡͡π̲̲͡͡ ̲̲͡▫̲̲͡͡ ̲|̡̡̡ ̡ ̴̡ı̴̡̡ ̡͌l̡̡̡̡.___</p></center>
+
+        <ul>
+          {% if site.show_downloads %}
+          <li><a class="buttons github" href="https://zsheley.github.io/Contact">Contact</a></li>
+          <li><a class="buttons github" href="https://zsheley.github.io/Blog">Blog</a></li>
+          <li><a class="buttons github" href="https://zsheley.github.io/Projects">Projects</a></li>
+          {% endif %}
+          <li><a class="buttons github" href="https://zsheley.github.io/Contact">Contact</a></li>
+          <li><a class="buttons github" href="https://zsheley.github.io/Blog">Blog</a></li>
+          <li><a class="buttons github" href="https://zsheley.github.io/Projects">Projects</a></li>
+        </ul>
+
+      </header>
+
+      <section>
+        {{ content }}
+      </section>
+
+      <footer>
+        <p><small>Click <a href="https://youtu.be/dQw4w9WgXcQ">here</a> for a suprise!</small></p>
+      </footer>
+    </div>
+  </body>
+</html>
